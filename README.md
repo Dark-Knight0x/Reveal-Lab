@@ -1,4 +1,4 @@
-<img width="2165" height="43" alt="image" src="https://github.com/user-attachments/assets/a2b76c09-bc49-42dc-8dc2-26546762b907" /># 🔍 CyberDefenders – Reveal Lab: Full Walkthrough
+# 🔍 CyberDefenders – Reveal Lab: Full Walkthrough
 
 [Link Lab](https://cyberdefenders.org/blueteam-ctf-challenges/reveal/)
 ##  Initial Analysis
@@ -7,7 +7,7 @@
 
 ## Q1 — Name of the Malicious Process
 
-**Answer: `powershell.exe
+**Answer: `powershell.exe`**
 
 
 First, I enumerated the running processes to identify any suspicious activity:
@@ -18,8 +18,19 @@ python3 vol.py -f ~/192-Reveal.dmp windows.malware.malfind.Malfind
 ```
 
 <img width="2197" height="302" alt="image" src="https://github.com/user-attachments/assets/f18dee49-b4ba-4be0-8cc0-534527e052db" />
+
+<br><br>
+
+
 <img width="1992" height="316" alt="image" src="https://github.com/user-attachments/assets/48c2c137-9d22-471c-a404-6ff2d74b71cb" />
+
+<br><br>
+
+
 <img width="1787" height="379" alt="image" src="https://github.com/user-attachments/assets/cf2eb588-ce9d-4ccb-b223-96d68cd37071" />
+
+
+
 
 
 From the output, I identified three potentially malicious processes:  
@@ -127,7 +138,6 @@ The output will show the SID resolving to a local username — in this case `elo
 
 ## Q7 — Malware Family Name
 
-## ## Q7 — Malware Family Name
 
 **Answer:** `StrelaStealer`
 
